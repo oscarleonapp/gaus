@@ -1,5 +1,5 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 /* Design */
 *,
@@ -14,22 +14,33 @@ html {
 
 body {
   color: #272727;
-  font-family: 'Quicksand', serif;
+  font-family: "Quicksand", serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
   padding: 1rem;
 }
 
-.main{
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.main {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 h1 {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
 }
 
 img {
@@ -49,11 +60,11 @@ img {
   width: 100%;
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
+  background: rgb(124, 167, 233);
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+  /* background-color: rgba(255, 255, 255, 0.12); */
 }
 
 .cards {
@@ -92,26 +103,28 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  /* background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%); */
 }
 
 .card_title {
-  color: #ffffff;
+  color: #323232;
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0px;
+  text-align: center;
 }
 
 .card_text {
-  color: #ffffff;
-  font-size: 0.875rem;
+  color: #2c2a2a;
+  font-size: 1rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;    
+  margin-bottom: 1.25rem;
   font-weight: 400;
+  text-align: center;
 }
-.made_by{
+.made_by {
   font-weight: 400;
   font-size: 13px;
   margin-top: 35px;
